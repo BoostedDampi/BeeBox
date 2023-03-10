@@ -2,7 +2,7 @@
 
 import socket
 
-HOST = "192.168.1.25"  # Standard loopback interface address (localhost)
+HOST = "127.0.0.1"  # Standard loopback interface address (localhost)
 PORT = 8088  # Port to listen on (non-privileged ports are > 1023)
 
 print(f"Starting server on {HOST}:{PORT}...")
@@ -17,17 +17,28 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 		    conn, addr = s.accept()
 		    with conn:
 		        print(f"Connected by {addr}")
-		        data = conn.recv(1024)
+		        data = conn.recv(1024).decode("utf-8")
 
 		        if not data:
 		        	print("ERROR: No data receved")
 		        print("Command receved: " + data)
 		        
-		        floa = float(23.78)
-		        print(floa)
-		        send = pack('!f', floa)
-		        conn.sendall(send)
-		        print("Sent data... now closing")
+		        #floa = float(23.78)
+		        #print(floa)
+		        #send = pack('!f', floa)
+		        #conn.sendall(send)
+		        #print("Sent data... now closing")
+
+		        if data[0] == '1':
+		        	print("Receved a zero")
+		        	conn.sendall(b"OK")
+		        elif data[0] == '2':
+		        	print("Receved status request:")
+		        	conn.sendall(b"022311")
+		        elif data[0] == '3':
+		        	print("Receved dataRequest")
+		        	conn.sendall(pack("!d", 123.12)) 
+
 	except:
 		print("Closing connection...")
 		s.close()
