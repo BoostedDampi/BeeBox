@@ -18,15 +18,15 @@ The BeeManager will open a website on which to see the data.
 
 - [x] BeeManager Socket. :satellite:
 - [ ] BeeManager Database. :open_file_folder: (Working on this now).
-\
+<br />
 - [ ] BeeManager Webserver. :chart_with_upwards_trend:
 - [ ] BeeManager Main application. :desktop_computer:
-\
+<br />
 - [x] BeeBox Proof of work. :gear:
 - [ ] BeeBox socket and security features :satellite:.
 - [ ] BeeBox Power management. :battery:
 - [ ] Wiring and upload of schematics (I'm a CS student, I'm going to learn this when finished programming the rest).
-\
+<br />
 - [ ] Getting harshly insulted by a Bee. 
 - [ ] Getting stung by a Bee while installing the BeeBox. :bee:
 
