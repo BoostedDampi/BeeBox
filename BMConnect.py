@@ -1,6 +1,7 @@
+#David Hermes 
 import socket
-import struct
-import time
+from struct import pack, unpack
+from time import sleep
 
 #This function configures the Beebox with connection window time and debug mode
 def configBeebox(ip, port, sleeptime, cap=True, debug=False):
