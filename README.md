@@ -19,9 +19,9 @@ The BeeManager will open a website on which to see the data trough a graph, you 
 
 * [x] BeeManager Socket. :satellite:
 * [ ] BeeManager Database. :open_file_folder: (Working on this now).
-------------------------------------------------------------------------
 * [ ] BeeManager Webserver. :chart_with_upwards_trend:
-* [ ] BeeManager Main application. :desktop_computer:<br/>
+* [ ] BeeManager Main application. :desktop_computer:
+ 
 * [x] BeeBox Proof of work. :gear:
 * [ ] BeeBox socket and security features :satellite:.
 * [ ] BeeBox Power management. :battery:
