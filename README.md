@@ -36,5 +36,3 @@ The BeeManager will open a website on which to see the data trough a graph, you 
 Wow that’s very nice, but before you start investing time in my project think about the fact that there are 10e9999 better projects not made by a CS student making shitty implementation decisions.\
 I know they are shitty because i made them.\
 But any critique is highly welcomed!making shitty implementation decisions.\
-I know they are shitty because i made them.\
-But any critique is highly welcomed!
