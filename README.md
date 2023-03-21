@@ -18,8 +18,8 @@ The BeeManager will open a website on which to see the data trough a graph, you 
 ## To-Do
 
 * [x] BeeManager Socket. :satellite:
-* [x] BeeManager Database. :open_file_folder: (Working on this now).
-* [ ] BeeManager Webserver. :chart_with_upwards_trend:
+* [x] BeeManager Database. :open_file_folder: 
+* [ ] BeeManager Webserver. :chart_with_upwards_trend: (Working on this now).
 * [ ] BeeManager Main application. :desktop_computer:
 
  
